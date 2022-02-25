@@ -1,0 +1,13 @@
+function GetElqOffer(strDataField){ var strTemp = '';        if(strDataField == 'Apps_Offers_O_Campaign_ID_151' || strDataField == 'Apps_Offers_O_Campaign_ID_151'){strTemp = '70160000000QzXNAA0';}
+        if(strDataField == 'Apps_Offers_O_Campaign_ID_181' || strDataField == 'Apps_Offers_O_Campaign_ID_181'){strTemp = '70160000000QzXNAA0';}
+        if(strDataField == 'Apps_Offers_O_Campaign_Name1' || strDataField == 'Apps_Offers_O_Campaign_Name1'){strTemp = '70160000000QzXNAA0_Newsletter_OpenSource.com Weekly Newsletter';}
+        if(strDataField == 'Apps_Offers_O_Target_Persona1' || strDataField == 'Apps_Offers_O_Target_Persona1'){strTemp = 'IT Leader';}
+        if(strDataField == 'Apps_Offers_O_Buying_Stage1' || strDataField == 'Apps_Offers_O_Buying_Stage1'){strTemp = 'Early / Top';}
+        if(strDataField == 'Apps_Offers_O_Solution_Code1' || strDataField == 'Apps_Offers_O_Solution_Code1'){strTemp = '';}
+        if(strDataField == 'Apps_Offers_O_Type1' || strDataField == 'Apps_Offers_O_Type1'){strTemp = 'Newsletter';}
+        if(strDataField == 'Apps_Offers_O_Asset_URL1' || strDataField == 'Apps_Offers_O_Asset_URL1'){strTemp = 'https://opensource.com/open-organization';}
+        if(strDataField == 'Apps_Offers_O_Description1' || strDataField == 'Apps_Offers_O_Description1'){strTemp = 'This offer campaign is for the weekly newsletter signups for opensource.com';}
+        if(strDataField == 'Apps_Offers_O_Language1' || strDataField == 'Apps_Offers_O_Language1'){strTemp = 'EN';}
+        if(strDataField == 'Apps_Offers_O_Access_Rule1' || strDataField == 'Apps_Offers_O_Access_Rule1'){strTemp = '';}
+        if(strDataField == 'Apps_Offers_O_Record_Type1' || strDataField == 'Apps_Offers_O_Record_Type1'){strTemp = 'Offer';}
+	return strTemp; } if (this.SetElqContent){ SetElqContent(); }
