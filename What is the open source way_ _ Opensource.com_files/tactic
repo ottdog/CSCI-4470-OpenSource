@@ -1,0 +1,6 @@
+function GetElqTactic(strDataField){ var strTemp = '';        if(strDataField == 'Apps_Tactics_T_Campaign_ID_151' || strDataField == 'Apps_Tactics_T_Campaign_ID_151'){strTemp = '701f2000001OH7nAAG';}
+        if(strDataField == 'Apps_Tactics_T_Campaign_ID_181' || strDataField == 'Apps_Tactics_T_Campaign_ID_181'){strTemp = '701f2000001OH7nAAG';}
+        if(strDataField == 'Apps_Tactics_T_Campaign_Name1' || strDataField == 'Apps_Tactics_T_Campaign_Name1'){strTemp = '701f2000001OH7nAAG_Website Natural Referrer_Global Natural Referrer_Opensource.c';}
+        if(strDataField == 'Apps_Tactics_T_Type1' || strDataField == 'Apps_Tactics_T_Type1'){strTemp = 'Website Natural Referrer';}
+        if(strDataField == 'Apps_Tactics_T_Record_Type1' || strDataField == 'Apps_Tactics_T_Record_Type1'){strTemp = 'Tactic';}
+	return strTemp; } if (this.SetElqContent){ SetElqContent(); }
